@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SITEPHP - Contato</title>
+    <link rel="stylesheet" href="contato.css">
+</head>
+<body>
+
+    <header class="cabecalho">
+        <span class="logo">SITEPHP</span>
+        <nav class="menu">
+            <a href="index.html">HOME</a>
+            <span class="divisor">|</span>
+            <a href="frmmenu.html">MENU</a>
+            <span class="divisor">|</span>
+            <a href="frmcadusuario.html">USUÁRIO</a>
+            <span class="divisor">|</span>
+            <a href="frmcontato.html">CONTATO</a>
+        </nav>
+    </header>
+
+    <main class="conteudo">
+        <div class="card-form">
+            <h2>CONTATO</h2>
+
+            <form action="" method="POST">
+                <div class="campo">
+                    <label for="nome">NOME:</label>
+                    <input type="text" id="nome" name="nome">
+                </div>
+
+                <div class="campo">
+                    <label for="email">E-MAIL:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+
+                <div class="campo">
+                    <label for="mensagem">MENSAGEM:</label>
+                    <textarea id="mensagem" name="mensagem" rows="5"></textarea>
+                </div>
+
+                <div class="botoes">
+                    <button type="submit">ENVIAR</button>
+                    <button type="reset">LIMPAR</button>
+                </div>
+            </form>
+        </div>
+    </main>
+
+</body>
+</html>
